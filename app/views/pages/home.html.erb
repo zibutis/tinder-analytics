@@ -1,0 +1,39 @@
+<div class="container">
+  <img src=<%= image_path 'landing.png' %> style='width:100%;' alt="">
+
+  <a href="https://tinder-analytics.myshopify.com">
+    <button href="https://tinder-analytics.myshopify.com" class="btn" >See your matches</button>
+    <button href="https://tinder-analytics.myshopify.com" class="btn" style="top:53%">See your report</button>
+    <button href="https://tinder-analytics.myshopify.com" class="btn" style="top:91%">Get your report</button>
+  </a>
+</div>
+
+
+<style>
+.container {
+  background-color:#333133;
+  position: relative;
+  width: 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #FF565D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 200;
+  font-size: 5vw;
+  min-width: 340px;
+  border-radius: 50px;
+}
+
+.container .btn:hover {
+  background-color: #EC2F35;
+}
+</style>
